@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menayl Shah — AI Automation Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">MS</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">AI Automation Engineer</p>
+      <h1 class="hero-name">Menayl Shah</h1>
+      <p class="hero-tagline">
+        Building agentic systems that think, act, and deliver —<br />
+        <span class="highlight">Claude API · LangGraph · Multi-Agent Orchestration</span>
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+      <div class="hero-metrics">
+        <div class="metric">
+          <span class="metric-value">80%</span>
+          <span class="metric-label">Compute Reduction<br/>BMW ML Pipeline</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-value">30%</span>
+          <span class="metric-label">Latency Reduction<br/>Huawei Spark</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-value">30K+</span>
+          <span class="metric-label">Employee Records<br/>Fraser Health</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Senior Data &amp; AI Engineer with 5+ years designing and delivering enterprise-grade automation across healthcare, automotive, and fintech. Currently at Fraser Health Authority building AI-powered workforce management systems that serve 30,000+ employees.
+          </p>
+          <p>
+            I specialise in agentic systems — building production pipelines where Claude and other LLMs don't just generate text, they plan, investigate, and act. My work spans the full stack: from LangGraph multi-agent architectures to ASP.NET Core enterprise applications.
+          </p>
+          <p>
+            Based in Vancouver, BC. Open to worldwide remote and Toronto relocation.
+          </p>
+        </div>
+        <div class="about-details">
+          <div class="detail-item">
+            <span class="detail-icon">&#127758;</span>
+            <div>
+              <strong>Location</strong>
+              <span>Vancouver, BC — Worldwide Remote</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="detail-icon">&#127891;</span>
+            <div>
+              <strong>Education</strong>
+              <span>MSc &amp; BSc EE/IT — TU Munich</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="detail-icon">&#128187;</span>
+            <div>
+              <strong>Stack</strong>
+              <span>Python · Claude API · LangGraph · Azure</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="detail-icon">&#9889;</span>
+            <div>
+              <strong>Status</strong>
+              <span>Open to new opportunities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section section-dark fade-in">
+    <div class="container">
+      <h2 class="section-title">Portfolio Projects</h2>
+      <p class="section-subtitle">Production-quality agentic systems built with the Claude API</p>
+      <div class="projects-grid">
+
+        <!-- Project 3 - Most impressive first -->
+        <div class="project-card featured">
+          <div class="project-badge">Latest</div>
+          <div class="project-header">
+            <div class="project-icon">&#129302;</div>
+            <div class="project-links">
+              <a href="https://github.com/Menayl/agent-builder" target="_blank" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">AI Agent Builder</h3>
+          <p class="project-description">
+            A multi-agent system that generates complete, tested LangGraph agents from a single plain-English description. Four specialised agents collaborate — analyst extracts requirements, architect designs the graph, Haiku writes the code, and a subprocess tester executes and auto-fixes errors in a feedback loop.
+          </p>
+          <div class="project-highlights">
+            <span>Supervisor pattern</span>
+            <span>Multi-model orchestration</span>
+            <span>Auto-fix feedback loop</span>
+            <span>Subprocess sandboxing</span>
+          </div>
+          <div class="project-stack">
+            <span class="tag">LangGraph</span>
+            <span class="tag">Claude Sonnet</span>
+            <span class="tag">Claude Haiku</span>
+            <span class="tag">Pydantic</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">&#128269;</div>
+            <div class="project-links">
+              <a href="https://github.com/Menayl/etl-investigator" target="_blank" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">ETL Investigation Agent</h3>
+          <p class="project-description">
+            A ReAct agent that investigates ETL anomalies by querying live databases — not inferring from text. Claude calls 6 tools across multiple reasoning rounds, cites exact record IDs and error messages, and produces evidence-backed incident reports. Built from a real problem faced at Fraser Health with Meditech and UKG pipelines.
+          </p>
+          <div class="project-highlights">
+            <span>ReAct pattern</span>
+            <span>6 live DB tools</span>
+            <span>Evidence-backed reports</span>
+          </div>
+          <div class="project-stack">
+            <span class="tag">LangGraph</span>
+            <span class="tag">Tool Use</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Claude API</span>
+            <span class="tag">Pydantic</span>
+          </div>
+        </div>
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">&#128680;</div>
+            <div class="project-links">
+              <a href="https://github.com/Menayl/etl-anomaly-agent" target="_blank" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">ETL Anomaly Detection Agent</h3>
+          <p class="project-description">
+            A LangGraph agent that detects anomalies in ETL pipelines, retrieves historical context from a ChromaDB vector store, and generates structured incident reports. Covers the full RAG pipeline from embedding to retrieval, with Pydantic-validated structured output.
+          </p>
+          <div class="project-highlights">
+            <span>RAG pipeline</span>
+            <span>Vector similarity search</span>
+            <span>Structured output</span>
+          </div>
+          <div class="project-stack">
+            <span class="tag">LangGraph</span>
+            <span class="tag">RAG</span>
+            <span class="tag">ChromaDB</span>
+            <span class="tag">Claude API</span>
+            <span class="tag">Pydantic</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Agentic AI</h3>
+          <div class="skill-tags">
+            <span>Claude API</span><span>LangGraph</span><span>LangChain</span>
+            <span>RAG</span><span>ChromaDB</span><span>Tool Use</span>
+            <span>ReAct Pattern</span><span>Pydantic</span><span>MCP</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Languages &amp; Frameworks</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>C# / ASP.NET Core</span><span>TypeScript</span>
+            <span>Vue.js</span><span>SQL</span><span>REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Cloud &amp; Data</h3>
+          <div class="skill-tags">
+            <span>Microsoft Azure</span><span>Azure Synapse</span><span>Azure Data Factory</span>
+            <span>Databricks</span><span>Apache Spark</span><span>SQL Server</span>
+            <span>AWS</span><span>GCP</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>AI Tools (Daily Use)</h3>
+          <div class="skill-tags">
+            <span>Claude Code</span><span>Google Antigravity</span><span>GitHub Copilot</span>
+            <span>ChatGPT</span><span>Gemini</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Compliance &amp; Security</h3>
+          <div class="skill-tags">
+            <span>PHIPA</span><span>PIPEDA</span><span>RBAC</span>
+            <span>Azure AD / Entra ID</span><span>Privacy Impact Assessments</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Domain Expertise</h3>
+          <div class="skill-tags">
+            <span>Healthcare Automation</span><span>HR Systems</span>
+            <span>Workforce Management</span><span>ETL Pipelines</span>
+            <span>Autonomous Driving ML</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section section-dark fade-in">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Fraser Health Authority</h3>
+                <p class="timeline-role">Senior Data Engineer — AI &amp; Automation Solutions</p>
+              </div>
+              <span class="timeline-date">Feb 2024 – Present</span>
+            </div>
+            <p>Building AI-powered workforce management systems serving 30,000+ employees. Delivered 4 enterprise applications (ASM, PSIC, WDJD, Employee Status Checker) replacing manual spreadsheet workflows. Built automated ETL pipelines integrating Meditech and UKG/WFM data.</p>
+            <div class="timeline-stack">ASP.NET Core · Vue.js · SQL Server · Azure · Meditech · UKG/WFM</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>BMW Group</h3>
+                <p class="timeline-role">Data Scientist — Autonomous Driving (ML &amp; Perception)</p>
+              </div>
+              <span class="timeline-date">Mar 2021 – Dec 2022</span>
+            </div>
+            <p>Re-implemented PointPillars 3D object detection in TensorFlow 2 with quantization-aware training, <strong>reducing compute requirements by 80%</strong>. Managed high-volume sensor data workflows achieving <strong>100% data usability</strong> for safety-critical model training.</p>
+            <div class="timeline-stack">Python · TensorFlow · Docker · Distributed Cloud · Sensor Data Pipelines</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Huawei</h3>
+                <p class="timeline-role">Big Data Engineer — Distributed ML Platforms</p>
+              </div>
+              <span class="timeline-date">Sep 2020 – Mar 2021</span>
+            </div>
+            <p>Integrated ML workflows into Spark-based platforms. Implemented partitioning and memory tuning that <strong>reduced processing latency by 30%</strong> and lowered cloud infrastructure costs.</p>
+            <div class="timeline-stack">Apache Spark · Distributed ML · Cloud Infrastructure</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Gini</h3>
+                <p class="timeline-role">Data Analyst — Financial &amp; Healthcare ML</p>
+              </div>
+              <span class="timeline-date">Aug 2019 – Aug 2020</span>
+            </div>
+            <p>Engineered large-scale datasets for financial and healthcare ML, implementing validation schemas that measurably improved model accuracy across multiple projects.</p>
+            <div class="timeline-stack">Python · ML Data Pipelines · Data Validation</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Technical University of Munich</h3>
+                <p class="timeline-role">MSc &amp; BSc — Electrical Engineering &amp; Information Technology</p>
+              </div>
+              <span class="timeline-date">2017 – 2022</span>
+            </div>
+            <p>Graduated with a Master's and Bachelor's in EE/IT from TU Munich, Germany. Research Assistant on the REACH 2020 clinical AI project during studies.</p>
+            <div class="timeline-stack">Machine Learning · Signal Processing · Clinical AI Research</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-subtitle">Open to AI Automation Engineering roles — worldwide remote or Toronto.</p>
+      <div class="contact-grid">
+        <a href="mailto:menayl.shah@gmail.com" class="contact-card">
+          <span class="contact-icon">&#9993;</span>
+          <div>
+            <strong>Email</strong>
+            <span>menayl.shah@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/menayl" target="_blank" class="contact-card">
+          <span class="contact-icon">&#128101;</span>
+          <div>
+            <strong>LinkedIn</strong>
+            <span>linkedin.com/in/menayl-shah</span>
+          </div>
+        </a>
+        <a href="https://github.com/Menayl" target="_blank" class="contact-card">
+          <span class="contact-icon">&#128196;</span>
+          <div>
+            <strong>GitHub</strong>
+            <span>github.com/menayl</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Menayl Shah &copy; 2026 &mdash; Built with HTML, CSS &amp; Claude Code</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
